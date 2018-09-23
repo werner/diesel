@@ -35,7 +35,7 @@ pub mod limit_dsl;
 #[doc(hidden)]
 pub mod load_dsl;
 mod locking_dsl;
-mod offset_dsl;
+pub mod offset_dsl;
 mod order_dsl;
 mod save_changes_dsl;
 #[doc(hidden)]
